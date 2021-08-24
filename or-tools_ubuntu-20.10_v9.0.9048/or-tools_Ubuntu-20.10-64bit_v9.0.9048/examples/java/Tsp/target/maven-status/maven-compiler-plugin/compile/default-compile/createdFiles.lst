@@ -1,0 +1,3 @@
+com/google/ortools/constraintsolver/samples/Tsp.class
+com/google/ortools/constraintsolver/samples/Tsp$DataModel.class
+com/google/ortools/constraintsolver/samples/Tsp$ManhattanDistance.class
