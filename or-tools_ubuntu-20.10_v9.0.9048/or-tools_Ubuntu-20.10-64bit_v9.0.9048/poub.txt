@@ -1,0 +1,258 @@
+JAVA_HOME =
+JAVAC_BIN = /usr/bin/javac
+CLASS_DIR = classes
+JAR_BIN = /usr/bin/jar
+JAVA_BIN = /usr/bin/java
+JAVAFLAGS = -Djava.library.path=lib
+MVN_BIN = /usr/bin/mvn
+
+make run SOURCE=examples/java/SimpleLpProgram/src/main/java/com/google/ortools/SimpleLpProgram.java
+make[1]: Entering directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+cd examples/java/SimpleLpProgram && "/usr/bin/mvn" compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.google.ortools:SimpleLpProgram[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:SimpleLpProgram 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSimpleLpProgram[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/SimpleLpProgram/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSimpleLpProgram[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/SimpleLpProgram/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.509 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:31:22+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+cd examples/java/SimpleLpProgram && "/usr/bin/mvn" exec:java 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.google.ortools:SimpleLpProgram[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:SimpleLpProgram 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mSimpleLpProgram[0;1m ---[m
+Number of variables = 2
+Number of constraints = 2
+Solution:
+Objective value = 25.0
+x = 0.0
+y = 2.5
+
+Advanced usage:
+Problem solved in 18 milliseconds
+Problem solved in 0 iterations
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.161 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:31:31+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+make run SOURCE=examples/java/SimpleMipProgram/src/main/java/com/google/ortools/SimpleMipProgram.java
+make[1]: Entering directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+cd examples/java/SimpleMipProgram && "/usr/bin/mvn" compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.google.ortools:SimpleMipProgram[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:SimpleMipProgram 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSimpleMipProgram[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/SimpleMipProgram/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSimpleMipProgram[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/SimpleMipProgram/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.721 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:31:41+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+cd examples/java/SimpleMipProgram && "/usr/bin/mvn" exec:java 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.google.ortools:SimpleMipProgram[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:SimpleMipProgram 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mSimpleMipProgram[0;1m ---[m
+Number of variables = 2
+Number of constraints = 2
+Solution:
+Objective value = 23.0
+x = 3.0
+y = 2.0
+
+Advanced usage:
+Problem solved in 37 milliseconds
+Problem solved in 0 iterations
+Problem solved in 1 branch-and-bound nodes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.115 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:31:49+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+make run SOURCE=examples/java/SimpleSatProgram/src/main/java/com/google/ortools/SimpleSatProgram.java
+make[1]: Entering directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+cd examples/java/SimpleSatProgram && "/usr/bin/mvn" compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.google.ortools:SimpleSatProgram[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:SimpleSatProgram 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSimpleSatProgram[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/SimpleSatProgram/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSimpleSatProgram[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/SimpleSatProgram/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.547 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:31:59+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+cd examples/java/SimpleSatProgram && "/usr/bin/mvn" exec:java 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.google.ortools:SimpleSatProgram[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:SimpleSatProgram 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mSimpleSatProgram[0;1m ---[m
+x = 1
+y = 0
+z = 0
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.251 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:32:08+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+make run SOURCE=examples/java/Tsp/src/main/java/com/google/ortools/Tsp.java
+make[1]: Entering directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+cd examples/java/Tsp && "/usr/bin/mvn" compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.google.ortools:Tsp[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:Tsp 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mTsp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/Tsp/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mTsp[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/Tsp/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.060 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:32:18+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+cd examples/java/Tsp && "/usr/bin/mvn" exec:java 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.google.ortools:Tsp[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:Tsp 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mTsp[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.286 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:32:27+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+make run SOURCE=examples/java/Vrp/src/main/java/com/google/ortools/Vrp.java
+make[1]: Entering directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+cd examples/java/Vrp && "/usr/bin/mvn" compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.google.ortools:Vrp[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:Vrp 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mVrp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/Vrp/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mVrp[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/Vrp/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.583 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:32:38+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+cd examples/java/Vrp && "/usr/bin/mvn" exec:java 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.google.ortools:Vrp[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:Vrp 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mVrp[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.521 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:32:47+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+make run SOURCE=examples/java/Knapsack/src/main/java/com/google/ortools/Knapsack.java
+make[1]: Entering directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
+cd examples/java/Knapsack && "/usr/bin/mvn" compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.google.ortools:Knapsack[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:Knapsack 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mKnapsack[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/Knapsack/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mKnapsack[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048/examples/java/Knapsack/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.802 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:32:58+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+cd examples/java/Knapsack && "/usr/bin/mvn" exec:java 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.google.ortools:Knapsack[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding com.google.ortools:Knapsack 9.0.9048[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mKnapsack[0;1m ---[m
+Total value = 7534
+Total weight: 850
+Packed items: [0, 1, 3, 4, 6, 10, 11, 12, 14, 15, 16, 17, 18, 19, 21, 22, 24, 27, 28, 29, 30, 31, 32, 34, 38, 39, 41, 42, 44, 47, 48, 49]
+Packed weights: [7, 0, 22, 80, 11, 59, 18, 0, 3, 8, 15, 42, 9, 0, 47, 52, 26, 6, 29, 84, 2, 4, 18, 7, 71, 3, 66, 31, 0, 65, 52, 13]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.201 s
+[[1;34mINFO[m] Finished at: 2021-08-24T06:33:06+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
