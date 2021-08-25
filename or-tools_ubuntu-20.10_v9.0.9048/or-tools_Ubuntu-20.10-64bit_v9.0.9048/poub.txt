@@ -25,8 +25,8 @@ cd examples/java/SimpleLpProgram && "/usr/bin/mvn" compile
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  5.720 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:06:20+02:00
+[[1;34mINFO[m] Total time:  6.582 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:12:03+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 cd examples/java/SimpleLpProgram && "/usr/bin/mvn" exec:java 
 [[1;34mINFO[m] Scanning for projects...
@@ -44,13 +44,13 @@ x = 0.0
 y = 2.5
 
 Advanced usage:
-Problem solved in 22 milliseconds
+Problem solved in 18 milliseconds
 Problem solved in 0 iterations
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  4.147 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:06:28+02:00
+[[1;34mINFO[m] Total time:  4.161 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:12:11+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
 make run SOURCE=examples/java/SimpleMipProgram/src/main/java/com/google/ortools/SimpleMipProgram.java
@@ -72,8 +72,8 @@ cd examples/java/SimpleMipProgram && "/usr/bin/mvn" compile
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  5.520 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:06:38+02:00
+[[1;34mINFO[m] Total time:  5.624 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:12:21+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 cd examples/java/SimpleMipProgram && "/usr/bin/mvn" exec:java 
 [[1;34mINFO[m] Scanning for projects...
@@ -91,14 +91,14 @@ x = 3.0
 y = 2.0
 
 Advanced usage:
-Problem solved in 35 milliseconds
+Problem solved in 36 milliseconds
 Problem solved in 0 iterations
 Problem solved in 1 branch-and-bound nodes
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  4.052 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:06:47+02:00
+[[1;34mINFO[m] Total time:  4.010 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:12:29+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
 make run SOURCE=examples/java/SimpleSatProgram/src/main/java/com/google/ortools/SimpleSatProgram.java
@@ -120,8 +120,8 @@ cd examples/java/SimpleSatProgram && "/usr/bin/mvn" compile
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  5.533 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:06:57+02:00
+[[1;34mINFO[m] Total time:  5.620 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:12:39+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 cd examples/java/SimpleSatProgram && "/usr/bin/mvn" exec:java 
 [[1;34mINFO[m] Scanning for projects...
@@ -137,8 +137,8 @@ z = 0
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  4.443 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:07:05+02:00
+[[1;34mINFO[m] Total time:  4.332 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:12:48+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
 make run SOURCE=examples/java/Tsp/src/main/java/com/google/ortools/Tsp.java
@@ -160,8 +160,8 @@ cd examples/java/Tsp && "/usr/bin/mvn" compile
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  6.133 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:07:16+02:00
+[[1;34mINFO[m] Total time:  6.484 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:13:00+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 cd examples/java/Tsp && "/usr/bin/mvn" exec:java 
 [[1;34mINFO[m] Scanning for projects...
@@ -174,8 +174,8 @@ cd examples/java/Tsp && "/usr/bin/mvn" exec:java
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  4.346 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:07:25+02:00
+[[1;34mINFO[m] Total time:  4.387 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:13:08+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
 make run SOURCE=examples/java/Vrp/src/main/java/com/google/ortools/Vrp.java
@@ -197,8 +197,8 @@ cd examples/java/Vrp && "/usr/bin/mvn" compile
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  6.060 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:07:35+02:00
+[[1;34mINFO[m] Total time:  6.141 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:13:19+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 cd examples/java/Vrp && "/usr/bin/mvn" exec:java 
 [[1;34mINFO[m] Scanning for projects...
@@ -211,8 +211,8 @@ cd examples/java/Vrp && "/usr/bin/mvn" exec:java
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  4.109 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:07:44+02:00
+[[1;34mINFO[m] Total time:  4.573 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:13:28+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
 make run SOURCE=examples/java/Knapsack/src/main/java/com/google/ortools/Knapsack.java
@@ -234,8 +234,8 @@ cd examples/java/Knapsack && "/usr/bin/mvn" compile
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  5.823 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:07:55+02:00
+[[1;34mINFO[m] Total time:  5.685 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:13:38+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 cd examples/java/Knapsack && "/usr/bin/mvn" exec:java 
 [[1;34mINFO[m] Scanning for projects...
@@ -252,7 +252,7 @@ Packed weights: [7, 0, 22, 80, 11, 59, 18, 0, 3, 8, 15, 42, 9, 0, 47, 52, 26, 6,
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  4.909 s
-[[1;34mINFO[m] Finished at: 2021-08-24T07:08:04+02:00
+[[1;34mINFO[m] Total time:  4.359 s
+[[1;34mINFO[m] Finished at: 2021-08-24T07:13:47+02:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 make[1]: Leaving directory '/home/peter/POUB/CSP-COP-Google-OR-tools-for-tasks-scheduling/or-tools_ubuntu-20.10_v9.0.9048/or-tools_Ubuntu-20.10-64bit_v9.0.9048'
