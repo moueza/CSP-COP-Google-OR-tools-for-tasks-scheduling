@@ -76,7 +76,7 @@ created is constrained to be 1, 2, 4, 5, or 6:
 -   **C++**: `model.NewIntVar(Domain::FromIntervals({ {1, 2}, {4, 6}});`
 -   **Python**: `model.NewIntVarFromDomain(cp_model.Domain.FromIntervals([[1,
     2], [4, 6]]), 'x')`
--   **Java**: `model.newIntVarFromDomain(Domain.fromIntervals(new long[][] {{1,
+-   **Java**: `model.newIntVarFromDomain(Domain.fromIntervals(new long[][] { { 1,
     2}, {4, 6}}), "x");`
 -   **C#**: `model.NewIntVarFromDomain(Domain.FromIntervals(new long[][] { new
     long[] {1, 2}, new long[] {4, 6} }), "x");`
