@@ -520,7 +520,7 @@ public class BinPackingProblemSat {
     int slackCapacity = 20;
     int numBins = 5;
 
-    int[][] items = new int[][] {{20, 6}, {15, 6}, {30, 4}, {45, 3}};
+    int[][] items = new int[][] { {20, 6}, {15, 6}, {30, 4}, {45, 3}};
     int numItems = items.length;
 
     // Model.
