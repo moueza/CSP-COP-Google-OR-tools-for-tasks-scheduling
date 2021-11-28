@@ -73,7 +73,7 @@ non-contiguous domains. Here, the variable can be any of 1, 3, 4, or 6:
 Variables can also be created using a list of intervals. Below, the variable
 created is constrained to be 1, 2, 4, 5, or 6:
 
--   **C++**: `model.NewIntVar(Domain::FromIntervals({{1, 2}, {4, 6}});`
+-   **C++**: `model.NewIntVar(Domain::FromIntervals({ {1, 2}, {4, 6}});`
 -   **Python**: `model.NewIntVarFromDomain(cp_model.Domain.FromIntervals([[1,
     2], [4, 6]]), 'x')`
 -   **Java**: `model.newIntVarFromDomain(Domain.fromIntervals(new long[][] {{1,
